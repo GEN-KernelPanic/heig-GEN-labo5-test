@@ -1,9 +1,11 @@
 #include "gtest/gtest.h"
-#include "example.h"
+#include "Customer.h"
 
-TEST(addition, worksWithPositiveOperands) {
-    int a = 15;
-    int b = 27;
+TEST(CustomerTest, StatementTest) {
+    Customer customer("Jaques");
 
-    ASSERT_EQ(42, addition(a, b));
+    customer.addRental(Rental(Movie("Rrrrrrrrrrrrrs"), 4));
+
+    ASSERT_EQ(customer.statement(),
+    "Rental Record for Jaques\n\tRrrrrrrrrrrrrs\t5\nAmount owed is 5\nYou earned 1 frequent renter points");
 }
