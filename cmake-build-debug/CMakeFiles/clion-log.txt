@@ -1,14 +1,18 @@
-"C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\matt989253\Documents\git\GEN\heig-GEN-labo5-test2
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/matt989253/Documents/git/GEN/heig-GEN-labo5-test2/cmake-build-debug/googletest
-[ 11%] Performing update step for 'googletest'
-[ 22%] No configure step for 'googletest'
-[ 33%] No build step for 'googletest'
-[ 44%] No install step for 'googletest'
-[ 55%] No test step for 'googletest'
-[ 66%] Completed 'googletest'
-[100%] Built target googletest
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/matt989253/Documents/git/GEN/heig-GEN-labo5-test2/cmake-build-debug
+"C:\Users\clari\AppData\Local\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/MinGW/bin/mingw32-make.exe -DCMAKE_C_COMPILER=C:/MinGW/bin/gcc.exe -DCMAKE_CXX_COMPILER=C:/MinGW/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" C:\Users\clari\Documents\HEIG\BA4\GEN\Labos\heig-GEN-labo5-test
+CMake Error: The current CMakeCache.txt directory C:/Users/clari/Documents/HEIG/BA4/GEN/Labos/heig-GEN-labo5-test/cmake-build-debug/googletest/CMakeCache.txt is different than the directory c:/Users/matt989253/Documents/git/GEN/heig-GEN-labo5-test2/cmake-build-debug/googletest where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The current CMakeCache.txt directory C:/Users/clari/Documents/HEIG/BA4/GEN/Labos/heig-GEN-labo5-test/cmake-build-debug/googletest/CMakeCache.txt is different than the directory c:/Users/matt989253/Documents/git/GEN/heig-GEN-labo5-test2/cmake-build-debug/googletest where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+Le chemin d'accÃ¨s spÃ©cifiÃ© est introuvable.
+Makefile:145: recipe for target 'cmake_check_build_system' failed
+mingw32-make.exe: *** [cmake_check_build_system] Error 1
+CMake Error at cmake/googletest.cmake:25 (add_subdirectory):
+  The source directory
+
+    C:/Users/clari/Documents/HEIG/BA4/GEN/Labos/heig-GEN-labo5-test/cmake-build-debug/googletest/googletest-src
+
+  does not contain a CMakeLists.txt file.
+Call Stack (most recent call first):
+  CMakeLists.txt:15 (fetch_googletest)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/clari/Documents/HEIG/BA4/GEN/Labos/heig-GEN-labo5-test/cmake-build-debug/CMakeFiles/CMakeOutput.log".

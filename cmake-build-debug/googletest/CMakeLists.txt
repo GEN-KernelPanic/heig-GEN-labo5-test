@@ -7,8 +7,8 @@ include(ExternalProject)
 
 ExternalProject_Add(
         googletest
-        SOURCE_DIR "C:/Users/matt989253/Documents/git/GEN/heig-GEN-labo5-test2/cmake-build-debug/googletest/googletest-src"
-        BINARY_DIR "C:/Users/matt989253/Documents/git/GEN/heig-GEN-labo5-test2/cmake-build-debug/googletest/googletest-build"
+        SOURCE_DIR "C:/Users/clari/Documents/HEIG/BA4/GEN/Labos/heig-GEN-labo5-test/cmake-build-debug/googletest/googletest-src"
+        BINARY_DIR "C:/Users/clari/Documents/HEIG/BA4/GEN/Labos/heig-GEN-labo5-test/cmake-build-debug/googletest/googletest-build"
         GIT_REPOSITORY
         https://github.com/google/googletest.git
         GIT_TAG
