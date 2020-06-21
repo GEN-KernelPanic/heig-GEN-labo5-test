@@ -16,7 +16,7 @@ private:
 };
 
 inline Rental::Rental(const Movie& movie, int daysRented)
-        : _movie(movie), _daysRented(daysRented) {}
+    : _movie(movie), _daysRented(daysRented) {}
 
 inline int Rental::getDaysRented() const {
     return _daysRented;
