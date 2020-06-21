@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc ..\lib\libexample.a  CMakeFiles/example.dir/example.cpp.obj
+C:\MinGW\bin\ranlib.exe ..\lib\libexample.a

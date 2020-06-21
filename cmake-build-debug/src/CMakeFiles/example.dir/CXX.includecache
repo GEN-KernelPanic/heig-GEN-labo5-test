@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/matt989253/Documents/git/GEN/heig-GEN-labo5-test2/src/example.cpp
+example.h
+C:/Users/matt989253/Documents/git/GEN/heig-GEN-labo5-test2/src/example.h
+
+C:/Users/matt989253/Documents/git/GEN/heig-GEN-labo5-test2/src/example.h
+

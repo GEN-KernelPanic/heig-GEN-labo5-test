@@ -1,0 +1,14 @@
+"C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\matt989253\Documents\git\GEN\heig-GEN-labo5-test2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/matt989253/Documents/git/GEN/heig-GEN-labo5-test2/cmake-build-debug/googletest
+[ 11%] Performing update step for 'googletest'
+[ 22%] No configure step for 'googletest'
+[ 33%] No build step for 'googletest'
+[ 44%] No install step for 'googletest'
+[ 55%] No test step for 'googletest'
+[ 66%] Completed 'googletest'
+[100%] Built target googletest
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/matt989253/Documents/git/GEN/heig-GEN-labo5-test2/cmake-build-debug
