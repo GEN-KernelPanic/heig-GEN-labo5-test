@@ -2,7 +2,7 @@
  -----------------------------------------------------------------------------------
  Labo        : 
  File        : NewRelease.cpp
- Author(s)   : Clarisse Fleurimont
+ Author(s)   : Clarisse Fleurimont, Matthieu Burguburu et Alexandre Simik
  Date        : 21.06.2020
  Remark(s)   :
  -----------------------------------------------------------------------------------

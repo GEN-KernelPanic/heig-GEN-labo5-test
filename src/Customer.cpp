@@ -30,7 +30,6 @@ string Customer::statement() {
     result << "Rental Record for " << getName() << "\n";
 
     for (const Rental& rental : _rentals) {
-        double thisAmount = rental.getMovie().getAmount(rental.getDaysRented());
 
         // add frequent renter points
         ++frequentRenterPoints;
@@ -40,8 +39,8 @@ string Customer::statement() {
 
         // show figures for this rental
         result << "\t" << rental.getMovie().getTitle()
-               << "\t" << thisAmount << "\n";
-        totalAmount += thisAmount;
+               << "\t" << rental.getMovie().getAmount(rental.getDaysRented()) << "\n";
+        totalAmount += rental.getMovie().getAmount(rental.getDaysRented());
     }
     // add footer lines
     result << "Amount owed is " << totalAmount << "\n"
