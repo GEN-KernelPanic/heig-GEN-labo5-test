@@ -1,17 +1,17 @@
 /*
  -----------------------------------------------------------------------------------
  Labo        : 
- File        : Regular.cpp
+ File        : NewRelease.cpp
  Author(s)   : Clarisse Fleurimont
  Date        : 21.06.2020
  Remark(s)   :
  -----------------------------------------------------------------------------------
 */
 
-#include "Regular.hpp"
+#include "NewRelease.hpp"
 
-Regular::Regular(const std::string &title) : Movie(title, REGULAR) {}
+NewRelease::NewRelease(const std::string &title) : Movie(title, NEW_RELEASE) {}
 
-int Regular::getPriceCode() const {
-    return REGULAR;
+int NewRelease::getPriceCode() const {
+    return NEW_RELEASE;
 }

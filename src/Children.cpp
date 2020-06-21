@@ -1,17 +1,17 @@
 /*
  -----------------------------------------------------------------------------------
  Labo        : 
- File        : Regular.cpp
+ File        : Children.cpp
  Author(s)   : Clarisse Fleurimont
  Date        : 21.06.2020
  Remark(s)   :
  -----------------------------------------------------------------------------------
 */
 
-#include "Regular.hpp"
+#include "Children.hpp"
 
-Regular::Regular(const std::string &title) : Movie(title, REGULAR) {}
+Children::Children(const std::string &title) : Movie(title, REGULAR) {}
 
-int Regular::getPriceCode() const {
-    return REGULAR;
+int Children::getPriceCode() const {
+    return CHILDREN;
 }
