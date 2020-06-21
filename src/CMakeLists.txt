@@ -7,9 +7,9 @@ target_sources(
         Movie.cpp
         main.cpp
         PUBLIC
-        ${CMAKE_CURRENT_LIST_DIR}/Customer.h
-        ${CMAKE_CURRENT_LIST_DIR}/Movie.h
-        ${CMAKE_CURRENT_LIST_DIR}/Rental.h
+        ${CMAKE_CURRENT_LIST_DIR}/Customer.hpp
+        ${CMAKE_CURRENT_LIST_DIR}/Movie.hpp
+        ${CMAKE_CURRENT_LIST_DIR}/Rental.hpp
 )
 
 target_include_directories(

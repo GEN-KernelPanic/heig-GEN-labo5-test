@@ -1,7 +1,7 @@
 // Customer.cpp
 #include <sstream>
 #include <vector>
-#include "Customer.h"
+#include "Customer.hpp"
 
 using std::ostringstream;
 using std::vector;

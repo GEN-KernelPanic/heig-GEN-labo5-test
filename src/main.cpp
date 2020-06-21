@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "Customer.h"
+#include "Customer.hpp"
 
 int main() {
 

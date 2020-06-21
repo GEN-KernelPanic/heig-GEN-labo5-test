@@ -12,13 +12,12 @@ public:
 
     Movie(const std::string& title, int priceCode = REGULAR);
 
-    int getPriceCode() const;
+    virtual int getPriceCode() const = 0;
     void setPriceCode(int arg);
     std::string getTitle() const;
 
 private:
     std::string _title;
-    int _priceCode;
 };
 
 
