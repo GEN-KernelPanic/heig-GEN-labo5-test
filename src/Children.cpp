@@ -10,7 +10,7 @@
 
 #include "Children.hpp"
 
-Children::Children(const std::string &title) : Movie(title, REGULAR) {}
+Children::Children(const std::string &title) : Movie(title, CHILDREN) {}
 
 int Children::getPriceCode() const {
     return CHILDREN;
