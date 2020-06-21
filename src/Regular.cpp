@@ -15,3 +15,10 @@ Regular::Regular(const std::string &title) : Movie(title, REGULAR) {}
 int Regular::getPriceCode() const {
     return REGULAR;
 }
+
+int Regular::getAmount(int daysRented) const {
+    int amount += 2;
+    if (daysRented > 2)
+        amount += (daysRented - 2) * 1.5;
+    return amount;
+}

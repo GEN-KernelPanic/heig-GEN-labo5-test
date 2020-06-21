@@ -18,6 +18,7 @@ class NewRelease : public Movie {
 public:
     NewRelease(const std::string& title);
     int getPriceCode() const;
+    int getAmount(int daysRented) const;
 };
 
 

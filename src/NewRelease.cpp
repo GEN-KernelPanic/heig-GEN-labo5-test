@@ -15,3 +15,7 @@ NewRelease::NewRelease(const std::string &title) : Movie(title, NEW_RELEASE) {}
 int NewRelease::getPriceCode() const {
     return NEW_RELEASE;
 }
+
+int NewRelease::getAmount(int daysRented) const {
+    return daysRented * 3;
+}
